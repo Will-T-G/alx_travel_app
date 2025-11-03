@@ -9,6 +9,6 @@ urlpatterns = [
     path('property/<int:property_id>/book/', views.booking_create, name='booking_create'),
     path('my-bookings/', views.my_bookings, name='my_bookings'),
     path('property/<int:property_id>/review/', views.review_create, name='review_create'),
-    path('', include('listings.urls')),
 ]
+
 
